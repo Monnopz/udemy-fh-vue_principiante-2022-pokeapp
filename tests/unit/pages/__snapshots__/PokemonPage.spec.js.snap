@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage Component debe de hacer match con el snapshot cuando cargan los pokemons 1`] = `
+<div>
+  <h1>¿Quién es este pokémon?</h1>
+  <pokemon-picture-stub pokemonid="1" showpokemon="false"></pokemon-picture-stub><!-- El equipo de Vue agrupo variables, ojetos y metodos con simbolo de dolar $; en este caso $emit -->
+  <!-- $emit(nombreMetodo, valoraenviar) -->
+  <!-- Como buena practica de parte del equipo de Vue, al emitir usar upperCamelCase (selectionPokemon) y al escuchar el evento usar keba-cas(selection-pokemon) -->
+  <!-- Esto de cambio de upperCamelCase a kebacase es posible gracias a que Vue lo hace desde un inicio al querer usar nuestros componentes propios con el nombre que les dimos o con keba case -->
+  <!-- Para escuchar un evento simplemente es con arroba (@); @selection-pokemon="metodoDelPadreAEjecutar" -->
+  <pokemon-options-stub pokemons="[object Object],[object Object],[object Object],[object Object]"></pokemon-options-stub><!-- El usar el template, aqui en Vue esta agrupado para manejar la condicion, pero al renderizar el DOM, este agrupador no aparecerá -->
+  <!--v-if-->
+</div>
+`;

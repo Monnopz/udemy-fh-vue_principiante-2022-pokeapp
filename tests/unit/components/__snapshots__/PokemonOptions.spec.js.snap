@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonOptions Component debe de hacer match con el snapshot 1`] = `
+<div>
+  <div class="options-container">
+    <ul>
+      <!-- El equipo de Vue agrupo variables, ojetos y metodos con simbolo de dolar $; en este caso $emit -->
+      <!-- $emit(nombreMetodo, valoraenviar) -->
+      <!-- Como buena practica de parte del equipo de Vue, al emitir usar upperCamelCase (selectionPokemon) y al escuchar el evento usar keba-cas(selection-pokemon) -->
+      <!-- Para escuchar un evento simplemente es con arroba (@); @selection-pokemon="metodoDelPadreAEjecutar" -->
+      <li>bulbasaur</li>
+      <li>ivysaur</li>
+      <li>venusaur</li>
+      <li>charmander</li>
+    </ul>
+  </div>
+</div>
+`;
